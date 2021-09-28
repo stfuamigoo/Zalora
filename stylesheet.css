@@ -1,0 +1,51 @@
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-right: 120px;
+}
+
+/* bagian heading */
+.heading-list a{
+    float: left;
+    padding: 20px 20px;
+    color: gray;
+    font-size: 12px;
+}
+
+/* bagian gambar bagian atas */
+.top-image{
+    text-align: center;
+}
+.static-img{
+    padding-top: 60px;
+}
+
+.dynamic-img{
+    padding-top: 15px;
+}
+
+/* bagian highlight weeks */
+.highlight-weeks{
+    text-align: center;
+    padding-left: 13.7%;
+    padding-right: 5%;
+}
+
+.highlight-weeks-img{
+    float: left;
+    
+}
+
+.highlight-weeks-img-content{
+    position: relative;
+    padding-left: 10px;
+}
