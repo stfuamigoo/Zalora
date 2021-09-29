@@ -62,7 +62,6 @@ li{
     float: left;
 }
 
-
 .text-context{
     width: 80%;
     display: inline-block;
@@ -70,3 +69,18 @@ li{
     font-size: 15px;
     color: #b3aeb5;
   }
+
+.footer-txt{
+    text-align: center;
+}
+
+.footer-brand-top{
+    float: left;
+}
+
+.footer-search-top{
+    float: right;
+}
+.sponsored{
+    float: left;
+}
