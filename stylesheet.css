@@ -49,3 +49,18 @@ li{
     position: relative;
     padding-left: 10px;
 }
+
+.footer-txt{
+    text-align: center;
+}
+
+.footer-brand-top{
+    float: left;
+}
+
+.footer-search-top{
+    float: right;
+}
+.sponsored{
+    float: left;
+}
