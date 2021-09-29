@@ -130,18 +130,55 @@ li{
   }
 
 /* bagian main text menuju footer */
-.footer-txt{
+.content-txt{
     text-align: center;
     color: grey;
 }
 
-.footer-brand-top{
+.content{
+    color: gray;
+}
+
+.content-brand{
     float: left;
 }
 
-.footer-search-top{
+.content-brand-list{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.content-search{
     float: right;
 }
-.sponsored{
+
+.content-search-list{
     float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
+
+.sponsor{
+    color: hotpink;
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color:white;
+    color:black;
+    height: 100px;
+    padding: 100px;
+}
+
+.footer-content-txt{
+    float: left;
+    width: 25%;
+    padding-right:50px ;
+}
+
