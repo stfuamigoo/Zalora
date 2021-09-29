@@ -5,6 +5,11 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+@font-face {
+    font-family: apercu;
+    src: url(fonts/Apercu/Apercu-Regular.otf);
+}
+
 li{
     list-style: none;
 }
@@ -22,9 +27,16 @@ li{
 
 .heading h1{
     text-align: center;
+    color: grey ;
+    font-family: apercu;
+    letter-spacing: 3.5px;
+    font-size: 28px;
 }
 
 /* bagian heading di main*/
+.top-heading{
+    height: 80px;
+}
 .heading-list a{
     float: left;
     padding: 20px 20px;
@@ -35,6 +47,7 @@ li{
 /* bagian category image */
 .category-image{
     padding-top: 50px;
+    height: 180px;
 }
 
 .category-imgs{
@@ -52,26 +65,51 @@ li{
 /* bagian mid banner */
 .mid-banner{
     padding-top: 20px;
+    height: 800px;
 }
 .banner-img{
     text-align: center;
 }
 
 /* bagian new this week */
+.new-week{
+    height: 570px;
+}
+
 .week-content{
     float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.week-content h3{
+    padding-top: 10px;
+}
+
+.week-content h3{
+    color: gray;
+    text-align: center;
+    font-family: apercu;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 .text-context{
     width: 80%;
     display: inline-block;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 12px;
     color: #b3aeb5;
+    text-align: center;
+    font-family: apercu;
+    letter-spacing: 2px;
+    line-height: 1.6;
   }
 
+/* bagian main text menuju footer */
 .footer-txt{
     text-align: center;
+    color: grey;
 }
 
 .footer-brand-top{
