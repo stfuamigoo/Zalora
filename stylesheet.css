@@ -17,11 +17,11 @@ li{
 
 .heading{
     padding-top: 50px;
-    padding-right: 120px;
+    padding-bottom: 20px;
 }
 
 .heading h1{
-    font-size: 100px;
+    text-align: center;
 }
 
 /* bagian heading di main*/
@@ -32,31 +32,41 @@ li{
     font-size: 12px;
 }
 
-/* bagian gambar bagian atas */
-.top-image{
-    text-align: center;
-}
-.static-img{
-    padding-top: 60px;
+/* bagian category image */
+.category-image{
+    padding-top: 50px;
 }
 
-.dynamic-img{
-    padding-top: 15px;
-}
-
-/* bagian highlight weeks */
-.highlight-weeks{
-    text-align: center;
-    padding-left: 13.7%;
-    padding-right: 5%;
-}
-
-.highlight-weeks-img{
+.category-imgs{
     float: left;
-    
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
-.highlight-weeks-img-content{
-    position: relative;
-    padding-left: 10px;
+.category-imgs p{
+    position: absolute;
+    top: 0;
 }
+
+
+/* bagian mid banner */
+.mid-banner{
+    padding-top: 20px;
+}
+.banner-img{
+    text-align: center;
+}
+
+/* bagian new this week */
+.week-content{
+    float: left;
+}
+
+
+.text-context{
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
