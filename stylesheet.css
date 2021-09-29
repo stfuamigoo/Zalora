@@ -5,6 +5,8 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+
+
 @font-face {
     font-family: apercu;
     src: url(fonts/Apercu/Apercu-Regular.otf);
@@ -15,12 +17,23 @@ h1, h2, h3, h4, h5, h6, p, div {
     src: url(fonts/Apercu/Apercu-Medium.otf);
 }
 
+@font-face {
+    font-family: gill-sans-regular;
+    src: url(fonts/Gill-sans/Gil-Sans-Regular.TTF);
+}
+
 li{
     list-style: none;
 }
 
 .container{
     max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-2{
+    max-width: 1500px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -36,6 +49,27 @@ li{
     font-family: apercu;
     letter-spacing: 3.5px;
     font-size: 28px;
+    padding-top: 25px;
+}
+
+.heading h2{
+    font-family: apercu;
+    color: grey;
+    letter-spacing: 3.5px;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.heading h3{
+}
+
+.heading p{
+    padding-top: 15px;
+    font-family: gill-sans-regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 /* bagian heading di main*/
@@ -82,7 +116,7 @@ li{
 /* bagian mid banner */
 .mid-banner{
     padding-top: 20px;
-    height: 800px;
+    height: 780px;
     padding-right: 95px;
 }
 .banner-img{
@@ -137,10 +171,18 @@ li{
 
 .content{
     color: gray;
+    width: 2000px;
+    height: 350px;
 }
 
 .content-brand{
     float: left;
+}
+
+.content-brand h3{
+    font-family: apercu;
+    font-size: 16px;
+    color: grey;
 }
 
 .content-brand-list{
@@ -151,7 +193,8 @@ li{
 }
 
 .content-search{
-    float: right;
+    float: left;
+    padding-left: 400px;
 }
 
 .content-search-list{
@@ -161,17 +204,17 @@ li{
     padding-top: 20px;
 }
 
-.sponsor{
-    color: hotpink;
+.sponsor-icon{
+    font-family: apercu;
     float: left;
-    padding-right: 40px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    padding-left: 20px;
+    margin-left: 80px;
+    padding-top: 20px;
 }
 
 footer{
-    background-color:white;
-    color:black;
+    background-color:red;
+    color: white;
     height: 100px;
     padding: 100px;
 }
