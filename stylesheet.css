@@ -1,3 +1,10 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 li{
     list-style: none;
 }
@@ -11,6 +18,10 @@ li{
 .heading{
     padding-top: 50px;
     padding-right: 120px;
+}
+
+.heading h1{
+    font-size: 100px;
 }
 
 /* bagian heading di main*/
