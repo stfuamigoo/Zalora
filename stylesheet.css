@@ -5,7 +5,9 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-
+*{
+    box-sizing: border-box;
+}
 
 @font-face {
     font-family: apercu;
@@ -68,6 +70,16 @@ li{
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 25px;
+}
+
+/* bagian header */
+header{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position :fixed;
+    top: 0;
+    z-index: 10;
 }
 
 /* bagian heading di main*/
@@ -169,8 +181,9 @@ li{
 
 .content{
     color: gray;
-    width: 2000px;
+    width: 1900px;
     height: 350px;
+    padding-left: 90px;
 }
 
 .content-brand{
@@ -227,9 +240,9 @@ li{
     color: grey;
 }
 
+/* bagian footer */
 footer{
-    color: white;
-    height: 200px;
+    height: 500px;
     padding: 100px;
     background-color: black;
     width: 100%;
@@ -243,11 +256,65 @@ footer{
     line-height: 24px;
 }
 
+.footer-title{
+    font-size: 50px;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    color: white;
+}
+
 .footer-content-txt-first{
     margin-top: 30px;
 }
 
-.footer-content-txt span{
-    color: grey;
+.footer-content-txt-first-new-line{
+    padding-top: 30px;
+}
+
+.footer-content-txt-first-new-line p{
+    padding-bottom: 10px;
+}
+
+.footer-content-txt-first-new-line input{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer-content-txt-first span{
+    color: yellow;
     font-family: apercu-medium;
+}
+
+.footer-content-txt-first a{
+    margin-top: 30px;
+}
+
+.footer-content-txt a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-content-txt h3{
+    color: white;
+}
+
+.footer-content-txt a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.footer-list span{
+    color: #999;
+    font-family: apercu-medium;
+}
+
+.footer-content-txt p{
+    color: grey;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid #eee;
 }
