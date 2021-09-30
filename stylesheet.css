@@ -80,6 +80,56 @@ header{
     position :fixed;
     top: 0;
     z-index: 10;
+    font-family: gill-sans-regular;
+}
+
+.header-logo a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-list a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-shop a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: hotpink;
+    display: block;
+    text-decoration: none;
+}
+
+.header-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.header-list{
+    float: left;
+    font-size: 15px;
+}
+
+.header-search{
+    float:left;
+    padding-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.header-shop-img{
+    float:left;
+    font-size: 15px;
+    width: 40px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
 
 /* bagian heading di main*/
@@ -235,9 +285,20 @@ header{
     font-family: apercu;
     float: left;
     padding-left: 20px;
-    margin-left: 80px;
+    margin-left: 50px;
     padding-top: 50px;
     color: grey;
+}
+
+.sponsor-img{
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.sponsor-img2{
+    float: left;
+    padding-top: 20px;
 }
 
 /* bagian footer */
@@ -318,3 +379,5 @@ footer{
     padding: 10px 15px;
     border: 1px solid #eee;
 }
+
+
